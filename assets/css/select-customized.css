@@ -3,7 +3,7 @@
 .list-customized-content span { overflow: hidden; width: calc(100% - 24px); display: inline-block; vertical-align: top; text-overflow: ellipsis; }
 .list-customized-content i.fa-chevron-down { margin-left: 10px; }
 .list-customized-content.open i.fa-chevron-down { transform: rotate(180deg); }
-.list-customized-content ul { background-color: #FFF; min-width: 100%; position: absolute; top: 100%; overflow: hidden; height: 0; list-style: none; margin: 0; left: 0; padding: 0; -webkit-transition: all .5s cubic-bezier(.215,.61,.355,1); -moz-transition: all .5s cubic-bezier(.215,.61,.355,1); -o-transition: all .5s cubic-bezier(.215,.61,.355,1); transition: all .5s cubic-bezier(.215,.61,.355,1); -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,.4); box-shadow: 2px 2px 3px 0 rgba(0,0,0,.4); }
+.list-customized-content ul { background-color: #FFF; min-width: 100%; position: absolute; z-index: 1; top: 100%; overflow: hidden; height: 0; list-style: none; margin: 0; left: 0; padding: 0; -webkit-transition: all .5s cubic-bezier(.215,.61,.355,1); -moz-transition: all .5s cubic-bezier(.215,.61,.355,1); -o-transition: all .5s cubic-bezier(.215,.61,.355,1); transition: all .5s cubic-bezier(.215,.61,.355,1); -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,.4); box-shadow: 2px 2px 3px 0 rgba(0,0,0,.4); }
 .list-customized-content.open ul { height: 200px; overflow: auto; }
 .list-customized-content li { padding: 10px; margin-right: 15px display: block; width: 100%; white-space: nowrap; }
 .list-customized-content li:hover,
